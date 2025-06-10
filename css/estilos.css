@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 50px;
+}
+
+#carouselZapatillas {
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#carouselZapatillas img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.zapatillas-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  font-size: 18px;
+  border: solid white 1px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.boton-comprar {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+  background-color: rgb(82, 82, 82);
+}
